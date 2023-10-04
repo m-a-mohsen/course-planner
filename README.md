@@ -25,3 +25,6 @@ Your contribtion is higly apprcitiated in below roles:
 - **Tech advisor**: propse solutions for roadblocks and advice on technology.
   
 ## Resources
+
+- Sheet and script link :
+https://docs.google.com/spreadsheets/d/1gGjqN_SJbTmw7YGwIZhny4_6SK8qi892lDCsFQNgUls/edit?usp=sharing
