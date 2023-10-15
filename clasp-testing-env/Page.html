@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sidebar</title>
-  <h1>Post Schedule Updates</h1>
-  <select name="Cohort" id="cohortSelect">
-    <option value="option 01">option one</option>
-  </select>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Sidebar</title> -->
+    <h2>Post Schedule Updates</h2>
+    <!-- <p> <strong>Today is:</strong> <?= new Date() ?></p> -->
+    <label for="cohortSelect">Cohort Selection:</label>
+    <select name="Cohort" id="cohortSelect">
+      <option value="">Please select cohort</option>
+      <? const cohort = getCohortNames();?>
+      <?  cohort.forEach(e => { ?>
+        <option value="<?= e ?>" id="<?= e ?>"><?= e ?></option>
+      <? }); ?>
+    </select>
+    <hr>
+    <label for="durationSelect">the length of update duration:</label>
+    <select name="durationOfUpdate" id="durationSelect">
+      <option value="">Please select Update duration</option>
+      <option value="day">Day</option>
+      <option value="week">Week</option>
+    </select>
+    <hr>
+    <label for="dateOfUpdateStart">Updates start date :</label>
+    <input type="date" name="dateOfUpdateStart" id="dateOfUpdateStart">
+    <hr>
+    <input type="text" name="dataRange" id="dataRange" value="data range">
+    <button type="submit">Select cells</button>
+    <hr>
+    <button type="button">Post to Calender</button>
+    <button type="button">Post to Slack</button>
+  </head>
+  <body></body>
 </html>

@@ -11,6 +11,7 @@
     - button to post updates on slack (web hook)
 ## Resources:
 ### docs
+##### Architectural design
 - https://www.ozimmer.ch/practices/2023/04/03/ADRCreation.html
 - https://www.ozimmer.ch/practices/2022/11/22/MADRTemplatePrimer.html
 
