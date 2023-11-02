@@ -2,7 +2,8 @@
 # Course Planner
 
 -- Image place holder --
-
+## Installation 
+This is a container-bound script to a google sheet hosted on google. It is possible to edit gs code from apps script editor. However, we use [clasp](https://github.com/google/clasp) to to edit apps scripts locally to use git version control.
 ## Introduction
 Course events are currently represented as a static markdown file in cohort's Github repo, which is inconvenient to access for reading or update. On the other hand, course plan is in a table format. So, The main idea of this tool is to have a tool which converts table input to calendar events and be able to update/publish them from your table planner. 
 ## Motivation
